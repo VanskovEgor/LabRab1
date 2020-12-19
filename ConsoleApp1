@@ -1,0 +1,32 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Индивидуальное задание 1");
+            Console.WriteLine("Лабораторная работа №1");
+            Console.WriteLine("");
+            Console.WriteLine("Выполнил: Вансков Егор Дмитриевич");
+            Console.WriteLine("Группа ИНС-б-о-19-1");
+            Console.WriteLine("Название ЛР: Разработка консольного приложения");
+
+            Console.WriteLine("-----------------------------------------------");
+            Console.WriteLine("Индивидуальное задание 2");
+            Console.WriteLine("Значение переменной k1 = {4}");
+            int k1 = 4;
+            Console.WriteLine("Значение переменной k2 = {2}");
+            int k2 = 2;
+            Console.WriteLine("Значение переменной k3 = {8}");
+            int k3 = 8;
+            Console.WriteLine("Значение функции _H = {4}+{2}-{8}+{4}*{2}/{8} = {-1}");
+            int H = k1 + k2 - k3 + k1 * k2 / k3;
+            Console.Write("H = ");
+            Console.WriteLine(H);
+
+
+        }
+    }
+}
